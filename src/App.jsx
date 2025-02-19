@@ -1,7 +1,12 @@
 import './App.css';
+import Chat from './pages/Chat';
 
 function App() {
-  return <h1 className='p-28'>Hello</h1>;
+  return (
+    <>
+      <Chat />
+    </>
+  );
 }
 
 export default App;
